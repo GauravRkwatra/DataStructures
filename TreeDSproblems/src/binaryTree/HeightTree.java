@@ -23,14 +23,14 @@ public class HeightTree {
 		tree.root = new Node(1);
 		
 		tree.root.left = new Node(2);
-        tree.root.right = new Node(3);
+                tree.root.right = new Node(3);
         
-        // 2 Left and right
-        tree.root.left.left = new Node(4);
-        tree.root.left.right = new Node(5);
+        	// 2 Left and right
+        	tree.root.left.left = new Node(4);
+        	tree.root.left.right = new Node(5);
 		
-        int height = tree.heightTree(tree.root);
-        System.out.println("Height: "+height);
+        	int height = tree.heightTree(tree.root);
+        	System.out.println("Height: "+height);
 	}
 
 }

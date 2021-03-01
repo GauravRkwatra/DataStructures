@@ -8,11 +8,10 @@ public class HeightTree {
 		if(root==null) {
 			// -1 for edges count, 0 for nodes count
 			return -1;
-		} else { 
-			
-			int left = heightTree(root.left);
-			int right = heightTree(root.right);
-			return Math.max(left, right) + 1;
+		} else { 			
+		    int left = heightTree(root.left);
+		    int right = heightTree(root.right);
+		    return Math.max(left, right) + 1;
 		}
 	}
 	
